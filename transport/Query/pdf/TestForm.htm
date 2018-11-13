@@ -1,0 +1,21 @@
+<html>
+  <head>
+  </head>
+
+  <body>
+    <b>Test Form</b><br><br>
+    By clicking on the "Create PDF" button below, the information entered in the name and address fields is submitted to the PHP script 'pbaphpdemo1_submit.php'.  This script then creates a PDF document using PDFBuilderASP.  The script demonstrates how images are added (a company logo), how graphics are drawn (various rectangles and lines to show boxes on the invoice) and the writing of several text fields.  Most of the text on the document is fixed, but the three data fields for the customer's name and address will be completed using the submitted information.<br><br>
+    The document is then displayed in the browser by PDFBuilderASP.
+
+    <form name="myform" action="pbaphpdemo1_submit.php" method="POST"><br><br>
+      Please enter a name.<br>
+      <input type="text" name="customername" size="40"><br><br>
+      Also, enter the first line of an address.<br>
+      <input type="text" name="address1" size="40"><br><br>
+      ..and the second line of an address.<br>
+      <input type="text" name="address2" size="40"><br><br>
+      Finally, click the button below to generate the invoice.<br><br> 
+      <input type="submit" value="Create PDF"><br>
+    </form>
+  </body>
+</html>

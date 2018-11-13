@@ -1,0 +1,117 @@
+<html>
+<head>
+	<title>trip</title>
+	
+</head>
+<body>
+<form action="student.php" method="post" name="StudentRegistration" onsubmit="return(validate());">
+
+	<table cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+	cellspacing="2">
+	
+		<tr>
+			<td colspan=2>
+			<center><font size=4><b>Trip Details</b></font></center>
+			</td>
+		</tr>
+
+		
+		<tr>
+			<td>Truck No:</td>
+			<td><input type="text" name="truckno" size="30" required></td>
+		</tr>
+
+		<tr>
+			<td>Date:</td>
+			<td><input type="date" name="date" size="30" required></td>
+		</tr>
+	
+		<tr>
+			<td>From:</td>
+			<td><input type="text" name="from" placeholder="enter source address" size="30" required></td>
+		</tr>
+
+		<tr>
+			<td>To:</td>
+			<td><input type="text" name="To" placeholder="enter destination address" size="30" required>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Full Address:</td>
+			<td><input type="text" name="address"  size="30" required></td>
+		</tr>
+
+		<tr>
+			<td>Sender:</td>
+			<td><input type="text" name="sender" size="30" required></td>
+		</tr>
+
+		<tr>
+			<td>Receiver:</td>
+			<td><input type="text" name="receiver" size="30" required></td>
+		</tr>
+
+        <tr>
+			<td>Weight:</td>
+			<td><input type="number" name="weight" size="30" required></td>
+		</tr>
+
+		<tr>
+			<td>Total Fraight:</td>
+			<td><input type="text" name="fraight" id="studentname" size="30" required></td>
+		</tr>
+
+        <tr>
+			<td>Advance:</td>
+			<td><input type="text" name="advance" placeholder="cost" size="30" required></td>
+		</tr>
+
+        <tr>
+			<td>Balance:</td>
+			<td><input type="text" name="balance" placeholder="cost" size="30" required></td>
+		</tr>
+
+		<tr>
+			<td>W_charge:</td>
+			<td><input type="text" name="charge" size="30" required></td>
+		</tr>
+
+		<tr>
+			<td>Claim:</td>
+			<td><input type="text" name="claim" size="30" required></td>
+		</tr>
+
+		<h1>Truck Information</h1>
+
+		<tr>
+			<td>Truck Owner:</td>
+			<td><input type="text" name="owner" size="30" required></td>
+		</tr>
+
+		
+		<tr>
+		<td>Driver Name:</td>
+			<td>
+			<select name="drivername">
+				<option value="-1" selected>select..</option>
+				<option value=""></option>
+				<option value=""></option>
+				<option value=""></option>
+				<option value=""></option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>
+				<input type="reset">
+			</td>
+			<td colspan="2">
+				<input type="submit" value="Submit Form" />
+			</td>
+		</tr>
+		
+	</table>
+	
+</form>
+</body>
+</html>

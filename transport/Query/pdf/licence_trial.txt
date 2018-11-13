@@ -1,0 +1,22 @@
+CIANSOFT PDFBuilderASP 2.3 (Trial Version)
+
+LICENCE AGREEMENT.
+
+PLEASE READ THESE TERMS AND CONDITIONS BEFORE DOWNLOADING OR INSTALLING THE SOFTWARE.
+
+This licence agreement applies to the Ciansoft PDFBuilderASP COM Object (Trial Version) and any accompanying files (collectively referred to as "the SOFTWARE"). 
+
+By downloading or installing the SOFTWARE, you are considered to have accepted this agreement.
+
+1.  GRANT OF LICENCE.
+You are granted a non-exclusive licence to install and use the SOFTWARE for evaluation purposes only.  
+
+2.  INTELLECTUAL PROPERTY.
+The SOFTWARE is the intellectual property of Ciansoft.  You must not disassemble the SOFTWARE or sell it to another party.  You may redistribute this trial copy only in its unmodified archive form.  The component files are not to be distributed separately.
+
+3.  LIABILITY.
+The software is supplied without warranties of any kind.  Ciansoft does not accept any liabilities which may arise directly or indirectly from its use.
+
+Ciansoft, August 2010.
+Web site: www.ciansoft.com
+Email: info@ciansoft.com
